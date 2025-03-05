@@ -1,6 +1,8 @@
 # QuickCraft
 QuickCraft is a 3D tile engine written in C inspired by Minecraft with a focus on speed and modularity (for modding!).
 
+The base program implements fundamental utilities like asset loading, world management, worldgen tools, pathfinding tools, and UI stuff that modders can use to add their own content. The base program doesn't have any content in-and-of itself; the 'vanilla game' that comes with the download is itself just a mod!
+
 ## Planned Features
 - 32³ cubic chunks
 - Modding in WASM from compiled C
